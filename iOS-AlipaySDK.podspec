@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
     core.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
   end
 
-  s.subspec "SSL" do |ssl|
-    ssl.dependency 'AlipaySDK-2.0/Core'
-    ssl.dependency 'OpenSSL'
-  end
+ # s.subspec "SSL" do |ssl|
+  #  ssl.dependency 'AlipaySDK-2.0/Core'
+   # ssl.dependency 'OpenSSL'
+  #end
 
 end
 
