@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   s.requires_arc      = true
 
-  s.source            = { :git => "http://github.com/shenlujia/iOS-AlipaySDK.git", :tag => "#{s.version}" }
+  s.source            = { :git => "https://github.com/shenlujia/iOS-AlipaySDK.git", :tag => "#{s.version}" }
   s.frameworks        = 'CoreTelephony', 'SystemConfiguration'
 
   s.default_subspec   = 'Core'
