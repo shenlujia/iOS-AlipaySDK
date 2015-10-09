@@ -3,9 +3,7 @@ Pod::Spec.new do |s|
   s.version           = "3.0.1"
   s.summary           = "iOS-AlipaySDK"
   s.homepage          = "https://b.alipay.com/newIndex.htm"
-  s.license           = {
-    :type => 'Copyright'
-    :text => <<-LINCENSE 支付宝(中国)网络技术有限公司 ^? 版权所有. LINCENSE }
+  s.license      = { :type => "Copyright", :text => "支付宝(中国)网络技术有限公司  版权所有." }
   s.author            = { "AliPay" => "http://www.alipay.com/" }
   s.platform          = :ios
   s.requires_arc      = true
