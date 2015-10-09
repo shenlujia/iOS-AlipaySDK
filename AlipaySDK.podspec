@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "AliPay"
-  s.version      = "2.1.2.1"
-  s.summary      = "支付宝 sdk"
+  s.name         = "iOS-AlipaySDK"
+  s.version      = "3.0.1"
+  s.summary      = "支付宝SDK"
 
   s.description  = <<-DESC
                    A longer description of AliPay in Markdown format.
@@ -53,9 +53,8 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "AliPay" => "https://www.alipay.com/" }
-  # Or just: s.author    = "beiliubei"
-  # s.authors            = { "beiliubei" => "beiliubei@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/beiliubei"
+  # Or just: s.author    = "shenlujia"
+  # s.authors            = { "shenlujia" => "shenlujia@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -77,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/beiliubei/AliPay.git", :tag => "2.1.2.1" }
+  s.source       = { :git => "https://github.com/shenlujia/iOS-AlipaySDK.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
